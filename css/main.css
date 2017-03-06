@@ -43,7 +43,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -91,6 +91,7 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -110,114 +111,141 @@ textarea {
 
 body {
     font-family: Graphik-Regular;
-    background-color: lightgrey;
 }
 
 header.main {
     display: flex;
-    flex-direction: column;
-    padding-top:30px;
-    padding-bottom:30px;
+    flex-direction: row;
+    padding:15px;
+    width: 100%;
+    background-color:#ddd;
 }
-h2 {
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+
+header.main h1 {
+    font-weight: normal;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top:auto;
+    margin-bottom:auto;
 }
-header {
+
+header.main .search-box {
     display: flex;
-    padding:20px;
-    flex-direction: column;
+    width: 70%;
 }
-header h1 {
-    margin:auto;
+
+header.main .search-box .fake-input {
+    border:1px solid #ccc;
+    border-right:none;
+    width: 100%;
+    padding:7px;
+    background-color: white;
+}
+
+header.main .search-box .search-btn {
+    border:1px solid #ccc;
+    display: flex;
+    padding:7px 15px;
+    background-color: dodgerblue;
+    color:white;
+}
+
+header.main .search-box .fake-input p {
+    padding:0;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+main {
+    margin:0 auto;
+    margin-top:20px;
+    width: 1000px;
+}
+
+.search-result a {
+    font-size: 23px;
+    letter-spacing: -1px;
+}
+.search-result small {
+    display: block;
+    color:#006621;
+    margin-top:5px;
+}
+.search-result p {
+    margin-top:5px;
+    font-size: 14px;
+}
+
+.person-info {
+    border:1px solid #ccc;
+}
+
+.person-info .section {
+    padding:20px;
+}
+
+.person-info h3 {
+    margin:0;
     font-family: 'Graphik-Bold';
 }
 
-header p {
-    margin:auto;
-}
-
-div.cards {
-    display:flex;
+small.faded {
+    color:#ccc;
+    font-style: italic;
 }
 
 
-
-div.cards div.card {
-    border-right:1px solid #ccc;
-    border-top:1px solid #ccc;
-    border-bottom:1px solid #ccc;
-    width: 33%;
-    padding:20px;
+div.columns {
     display: flex;
-    flex-direction: column;
-    background-color: white;
-}
-div.cards div.card:last-child {
-    border-right:none;
+    width: 100%;
 }
 
-div.cards div.card.companies {
-    flex-wrap: wrap;
-    flex-direction: column;
+div.columns div.column {
+    width: 50%;
 }
-div.cards div.card.companies p {
-    margin-top:40px;
-}
-div.cards div.card.companies a {
-    margin:0;
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-}
-
-div.cards div.card.companies a img {
-    height: 100%;
-    margin: auto;
-}
-
-div.cards div.card h3 {
-    margin:0;
-}
-div.cards div.card a {
-    margin-top:auto;
-}
-
-p.outer-p {
-    padding-left:20px;
-    padding-right:20px;
-}
-
 
 @media screen and (max-width: 768px) {
-    header h1, header p {
-        text-align: center;
+    header.main {
+        flex-direction: column;
+        padding:20px 0;
     }
-    div.cards {
+
+    header.main h1 {
+        margin:auto;
+        margin-bottom:10px;
+    }
+    header.main .search-box {
+        margin:auto;
+        width: 80%;
+    }
+    div.columns {
         flex-direction: column;
     }
-    div.cards div.card:first-child {
-        border-top:1px solid #ccc;
+    div.columns div.column {
+        width: 100%;
     }
-    div.cards div.card {
-        border-bottom:1px solid #ccc;
-        border-top:none;
-        width: 91%;
-        border-right: none;
+    div.columns div.column.second-mobile {
+        order:2;
+    }
+    div.columns div.column.first-mobile {
+        order:1;
+    }
+    .person-info {
+        width: 100%;
+        margin-bottom:30px;
+    }
+    main {
+        margin:0 auto;
+        margin-top:20px;
+        width: 90%;
     }
 
-    div.cards div.card.companies a img {
-        height: 30px;
+    body {
+        padding-bottom:20px;
     }
 }
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
