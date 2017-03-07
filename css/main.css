@@ -119,6 +119,7 @@ a:hover {
 body {
     font-family: Graphik-Regular;
     padding-top:20px;
+    padding-bottom:20px;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -198,10 +199,26 @@ main {
 
 .person-info .section h4 {
     margin:0;
+    font-size: 14px;
 }
 
 .person-info .section {
+    font-size: 14px;
     padding:15px;
+}
+
+.person-info .section .name-title-pic {
+    font-size: 24px;
+    display: flex;
+}
+.person-info .section .name-title-pic img.my-pic {
+    height: 100px;
+    margin-right:10px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+}
+.person-info .section .name-title-pic div {
+    margin:auto;
 }
 
 .person-info .companies {
