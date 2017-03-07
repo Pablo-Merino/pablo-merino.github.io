@@ -119,6 +119,11 @@ a:hover {
 body {
     font-family: Graphik-Regular;
     padding-top:20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+footer {
+    margin-top:20px;
 }
 
 header.main {
@@ -188,6 +193,7 @@ main {
 
 .person-info {
     border:1px solid #ccc;
+    background-color: white;
 }
 
 .person-info .section h4 {
@@ -287,6 +293,7 @@ div.columns div.column {
     }
 
 }
+
 
 /* ==========================================================================
    Helper classes
