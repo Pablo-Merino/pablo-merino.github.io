@@ -108,9 +108,17 @@ textarea {
   font-family: Graphik-Medium;
   src: url(./fonts/Graphik-Medium.otf);
 }
-
+a:visited {
+    color:rgb(0,0,238);
+}
+a:hover {
+    background-color: rgb(0,0,238);
+    color:white;
+    text-decoration: none;
+}
 body {
     font-family: Graphik-Regular;
+    padding-top:20px;
 }
 
 header.main {
@@ -182,8 +190,27 @@ main {
     border:1px solid #ccc;
 }
 
+.person-info .section h4 {
+    margin:0;
+}
+
 .person-info .section {
-    padding:20px;
+    padding:15px;
+}
+
+.person-info .companies {
+    display: flex;
+    flex-direction: row;
+    margin-top:10px;
+}
+
+.person-info .companies a {
+    margin: auto;
+    display: flex;
+}
+
+.person-info .companies a img {
+    width: 100px;
 }
 
 .person-info h3 {
@@ -245,6 +272,20 @@ div.columns div.column {
     body {
         padding-bottom:20px;
     }
+
+    .person-info .companies {
+        visibility: hidden;
+        flex-direction: column;
+    }
+
+    .person-info .companies a {
+        margin-right:auto;
+    }
+
+    .person-info .companies a img {
+        width: 100%;
+    }
+
 }
 
 /* ==========================================================================
