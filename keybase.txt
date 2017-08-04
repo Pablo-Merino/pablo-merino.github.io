@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/pablo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://pablo.xyz
+  * I am pablo (https://keybase.io/pablo) on keybase.
+  * I have a public key with fingerprint E8D6 3414 62DE 6F74 BA31  D1E1 5F3F 9E86 9E07 6C4A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010123437bcb250ac01b687a207781b553b20f686e571192a6123cadf7b6b45e68590a",
+      "fingerprint": "e8d6341462de6f74ba31d1e15f3f9e869e076c4a",
+      "host": "keybase.io",
+      "key_id": "5f3f9e869e076c4a",
+      "kid": "010123437bcb250ac01b687a207781b553b20f686e571192a6123cadf7b6b45e68590a",
+      "uid": "8984a10ccc077f09e2cd3bd9d6914e00",
+      "username": "pablo"
+    },
+    "service": {
+      "hostname": "pablo.xyz",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1501848322,
+  "expire_in": 157680000,
+  "prev": "d3caa2c062664daeb03ef97d747371a3fd85df24c737c1ad308d0235877bebce",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMIeAnicrVJJaBRBFJ1RozGiRseDQVRsdwxjVS9V3XNQDwZUUEGJEAhMqrqqJ02S
+6bZnJntcQIggOi6444B4UVCjESLirgkYJYcoLjm4TIxgJLgh4pZodVDw4NG6FP/X
+e6/e+/z28SMDecEZ+VvnZS+Mawveu7k7FSjZZo5okKjD6qRIg1TBhy9eyXgiGa2w
+mRSRAARQVlQFU5PKGiAmgBTpmMgAYx1STVOoDCykI65hCA2ZIAE3CbMwRVTVONI1
+AxCpULLseIx7rmfHk0KW6wwpKlSRzDiysEqJAhnkULMUy+A6MjjAyFR9YrmT8BnC
+HCUJHrYd0RNFdNjeP/D/2XdqWE43dJVAYJqm4FvA4LLJFMoMhgyocgB8YIJ7cVLF
+BdoltNKRmgol0aq2Te5P1Y/x93O4tq5esFzPSTqmUyna5cmkG/FZyTrXh9VwGv0t
+EKV2nIkBCkI19xK2E5ciUCDNpO0rQg1AXdUVWS6UeK1rezxq+wgNIx2I43/Dq4Uk
+ExGJbAIkI6QywilQuGVghlWsYEgUi+kas2TVFKUJCVOAzoCsaDrGlFMRxI+0Me5I
+EV3YJDEhmbBjcZJMeVxqunWjdFQgmBcYnTPCX6xA3tj8P+u2I5UbaMtNp3O2PL7T
+36lcWfSmoj3UuW9ZMW6smfl1FBxqbjj27U7/1Q1Fx188vI6ef6vvnvBx+4seN6ej
+d/b8cOj0A9Lwqb72FZgU+jmQ5q/v/rw4d622qXdJy4BxumNwTLbHu1TM50xsnv7Z
+NbLnjGDBQtcsGz20t//e20XZ+5mCA/Ku7S1ne8I/Xm8OPatd19LV23r5Q+p9JtN1
+ki9YdbCvuOQIbjw8sWZc7vcv+8vyBjv3NPcdyu58tPLJyuXxDSfSgdvzi7pXDw6p
+pWWxqkZ3cuRUJPMyfaNv1pmS82vWT+jfUXl0RdO0geC7qfOaVrCMlZ67eG3B7aWf
+g0bo8tPj764VtU75BR9rQFI=
+=UGQK
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pablo
+
+==================================================================
+
