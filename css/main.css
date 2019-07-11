@@ -10,7 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+   html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -196,6 +196,7 @@ main {
 
 .person-info {
     border:1px solid #ccc;
+    border-radius: 5px;
     background-color: white;
 }
 
@@ -221,6 +222,7 @@ main {
 }
 .person-info .section .name-title-pic div {
     margin:auto;
+    margin-left: 10px;
 }
 
 .person-info .companies {
